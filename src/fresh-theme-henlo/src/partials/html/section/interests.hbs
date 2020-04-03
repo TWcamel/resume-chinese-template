@@ -1,0 +1,16 @@
+{{#> molecule-section sectionId='interests' sectionTitleKey='INTERESTS' data=r.interests}}
+  {{#*inline 'section-gallery-item'}}
+    <div class="hvpod hvpod--interest">
+      <div class="hvpod-block">
+        <h3 class="hvpod-title">{{{ name }}}</h3>
+
+        <div class="hvpod-element">
+          {{{ summary }}}
+        </div>
+        <div class="hvpod-element hvpod-element--highlights">
+          {{> highlights }}
+        </div>
+      </div>
+    </div>
+  {{/inline}}
+{{/molecule-section}}

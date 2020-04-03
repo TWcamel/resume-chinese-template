@@ -1,0 +1,12 @@
+{{#> molecule-section sectionId='languages' sectionTitleKey='LANGUAGES' data=r.languages}}
+  {{#*inline 'section-gallery-item'}}
+    <div class="hvpod hvpod--language">
+      <div class="hvpod-block hvpod-block--main">
+        <h3 class="hvpod-title">{{ language }}</h3>
+      </div>
+      <div class="hvpod-block">
+        {{{ summary }}}
+      </div>
+    </div>
+  {{/inline}}
+{{/molecule-section}}

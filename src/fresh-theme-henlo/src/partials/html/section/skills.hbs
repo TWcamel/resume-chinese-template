@@ -1,0 +1,12 @@
+{{#> molecule-section sectionId='skills' sectionTitleKey='SKILLS' data=r.skills.sets}}
+  {{#*inline 'section-gallery-item'}}
+    <div class="hvpod hvpod--skills_set">
+      <div class="hvpod-block">
+        <h4 class="hvpod-title">{{ name }}</h4>
+        <div class="hvpod-element hvpod-element--keywords">
+          {{> molecule-keywords keywords=skills keywordType="primary"}}
+        </div>
+      </div>
+    </div>
+  {{/inline}}
+{{/molecule-section}}

@@ -1,0 +1,216 @@
+{
+    "name": "黃上科",
+    "meta": {
+        "format": "FRESH@0.6.0",
+        "version": "0.5.0"
+    },
+    "info": {
+        "label": "Front-end Developer",
+        "characterClass": "Programmer",
+        "brief": "Web developer from Paris with 8+ years of experience, a good eye for design and good communication skills, looking for new opportunities in Berlin. Problem‑solver seeking new challenges and to get things done, interested in working with component‑based frameworks, API-oriented products and JAM stack apps."
+    },
+    "contact": {
+        "phone": "+33 XX XX XX XX",
+        "email": "john.doe@example.com"
+    },
+    "location": {
+        "city": "Paris",
+        "country": "FR"
+    },
+    "social": [
+        {
+            "label": "Codepen",
+            "network": "Codepen",
+            "user": "hussard",
+            "url": "https://codepen.io/hussard"
+        },
+        {
+            "label": "Github",
+            "network": "GitHub",
+            "user": "hussard",
+            "url": "https://github.com/hussard"
+        }
+    ],
+    "employment": {
+        "history": [
+            {
+                "employer": "Wiztopic",
+                "position": "Lead Front-end Developer",
+                "start": "2016-10",
+                "end": "2019-07",
+                "keywords": [
+                    "HTML",
+                    "CSS",
+                    "Sass",
+                    "Twig",
+                    "Symfony 2",
+                    "Symfony 3",
+                    "Symfony 4",
+                    "jQuery",
+                    "React",
+                    "MongoDB",
+                    "GraphQL",
+                    "MJML",
+                    "Docker"
+                ],
+                "highlights": [
+                    "Handled 25+ client projects for CAC40 and SBF120 companies such as banks, energy companies, and asset managers; by developing a theming system for newsrooms and emailing on top of Symfony/MongoDB.",
+                    "Hired and supervised a team of 2 to 6 people including developers, designers and a project manager and set up a design-development workflow using Atomic Design principles."
+                ]
+            },
+            {
+                "employer": "Freelance",
+                "position": "Front-end Developer",
+                "start": "2015-01",
+                "end": "2016-10",
+                "keywords": [
+                    "PHP",
+                    "HTML",
+                    "CSS",
+                    "Sass",
+                    "Twig",
+                    "Symfony 2",
+                    "jQuery"
+                ],
+                "highlights": [
+                    "Developed themes and plugins for Osclass CMS sold on a marketplace, cumulating 15 000+ downloads mainly in the USA, India, Brazil and Europe; such as: messaging, SEO, emailing customization, users management, Mailchimp integration, Single sign-on, etc."
+                ]
+            },
+            {
+                "employer": "Much Much",
+                "position": "Entrepreneur",
+                "start": "2013-09",
+                "end": "2016-10",
+                "keywords": [
+                    "PHP",
+                    "HTML",
+                    "CSS",
+                    "Sass",
+                    "Angular 1",
+                    "Angular 2",
+                    "jQuery",
+                    "Handlebars",
+                    "Mustache"
+                ],
+                "highlights": [
+                    "Launched a french flatsharing and roommate finder website, reaching 16 000 users and 70 000+ page views per month.",
+                    "Designed the website and brand identity. Developed the website’s front-end and back-end features such as: a search with advanced Google Map integration, one-to-one and group messaging and a booking/payment system (Stripe / MangoPay)."
+                ]
+            },
+            {
+                "employer": "Intrinsec (now, Cloud Temple)",
+                "position": "Developer",
+                "start": "2010-09",
+                "end": "2013-09",
+                "keywords": ["Shell/Bash", "Perl", "Nagios", "Java", "PHP"],
+                "highlights": [
+                    "Managed and developed over 200 monitoring probe scripts executing across 100+ heterogeneous information systems of top French finance, bank, energy or tourism companies",
+                    "Developed a probe framework/SDK in Perl to unify inputs and outputs, hunted duplicates and set up versioning, dependency management, packaging and normalized execution environments (deployment of physical appliance)."
+                ]
+            }
+        ]
+    },
+    "education": {
+        "history": [
+            {
+                "institution": "Université Paris V Descartes",
+                "title": "Master II MIAGE",
+                "url": "",
+                "start": "2011-09",
+                "end": "2013-09",
+                "summary": "Management applied to computer science, specialization in Change Management"
+            },
+            {
+                "institution": "Lycée Léonard de Vinci, Levallois",
+                "title": "Baccalauréat",
+                "url": "",
+                "start": "2004-09",
+                "end": "2008-06",
+                "summary": "High school degree, science major (engineering)"
+            }
+        ]
+    },
+    "skills": {
+        "sets": [
+            {
+                "name": "Front-end",
+                "level": "advanced",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "Sass",
+                    "JavaScript",
+                    "React",
+                    "REST",
+                    "GraphQL",
+                    "Webpack"
+                ]
+            },
+            {
+                "name": "Back-end",
+                "level": "advanced",
+                "skills": ["PHP", "Symfony 3/4", "Node", "OAuth", "JWT"]
+            },
+            {
+                "name": "System & Database",
+                "level": "intermediate",
+                "skills": [
+                    "Git",
+                    "Shell",
+                    "Docker",
+                    "Perl",
+                    "Awk",
+                    "SQL",
+                    "PostgreSQL",
+                    "MySQL",
+                    "NoSQL",
+                    "MongoDB"
+                ]
+            },
+            {
+                "name": "Projects & Tools",
+                "level": "beginner",
+                "skills": [
+                    "Github",
+                    "Atomic Design",
+                    "Figma",
+                    "Illustrator",
+                    "JIRA",
+                    "InVision"
+                ]
+            }
+        ]
+    },
+    "languages": [
+        {
+            "language": "French",
+            "summary": "C2"
+        },
+        {
+            "language": "English",
+            "summary": "C1, TOEIC : 905/990 (2013)"
+        },
+        {
+            "language": "Spanish",
+            "summary": "A2"
+        },
+        {
+            "language": "Russian",
+            "summary": "A2"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Music",
+            "summary": "Guitar and Bass Guitar player (10+ years’ experience). Concerts, discovering new music and creating eclectic playlists."
+        },
+        {
+            "name": "Tech",
+            "summary": "Listening to Syntax.FM, Shoptalk Show, Fun Fun Function, Coding Train, The Futur; Playing w/ Arduino’s"
+        },
+        {
+            "name": "Sport",
+            "summary": "Bicycle, Tennis (10 + years’ experience) and Table Tennis"
+        }
+    ]
+}

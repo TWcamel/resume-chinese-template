@@ -1,0 +1,70 @@
+{{#*inline "myPartial"}}
+  <dl class="henlo-list henlo-list--info_contact">
+    {{#has 'contact.email'}}
+      <div class="henlo-list-item henlo-list-item--email">
+        <dt>@</dt>
+        <dd>
+          <a href="mailto:{{{ RAW.contact.email }}}">{{ RAW.contact.email }}</a>
+        </dd>
+      </div>
+    {{/has}}
+    {{#has 'contact.phone'}}
+      <div class="henlo-list-item henlo-list-item--phone">
+        <dt>T</dt>
+        <dd>{{ r.contact.phone }}</dd>
+      </div>
+    {{/has}}
+    {{#has 'contact.website'}}
+      <div class="henlo-list-item">
+        <dt>WWW</dt>
+        <dd>
+          <a href="{{{ RAW.contact.website }}}">
+            {{trimURL RAW.contact.website }}
+          </a>
+        </dd>
+      </div>
+    {{/has}}
+  </dl>
+{{/inline}}
+
+{{#*inline "myPartial2"}}
+  <dl class="henlo-list henlo-list--info_contact">
+    {{#each r.social}}
+      <div class="henlo-list-item">
+        <dt>{{ this.label }}</dt>
+        <dd>{{ url }}</dd>
+      </div>
+    {{/each}}
+  </dl>
+{{/inline}}
+
+{{#has 'info.brief'}}
+  <section class="section section--header henlo-header">
+    <div class="section-element--img">
+      <span>A</span>
+      <span>R</span>
+      <span>N</span>
+      <span>+</span>
+    </div>
+    <div class="section-block section-block--main">
+      <h1 class="section-title">
+        {{ r.name }}
+      </h1>
+      <p class="section-subtitle">
+        {{ r.info.label }}
+      </p>
+    </div>
+    {{#has "info.brief"}}
+      <div class="section-block section-block--summary">
+        <p class="section-text">{{{ r.info.brief }}}</p>
+      </div>
+    {{/has}}
+
+    <div class="section-block section-block--contact">
+      {{> myPartial }}
+    </div>
+    <div class="section-block section-block--contact">
+      {{> myPartial2 }}
+    </div>
+  </section>
+{{/has}}

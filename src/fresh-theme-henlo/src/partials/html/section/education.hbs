@@ -1,0 +1,22 @@
+{{#> molecule-section sectionId='education' sectionTitleKey='EDUCATION' data=r.education.history}}
+  {{#*inline 'section-gallery-item'}}
+    <div class="hvpod hvpod--education_degree">
+      <div class="hvpod-block hvpod-block--main">
+        <h3 class="hvpod-title">
+          {{#if title}}
+            {{{ title }}}
+          {{/if}}
+        </h3>
+        <div class="hvpod-subtitle">
+          {{{ institution }}}
+        </div>
+        <div class="hvpod-element">
+          {{{ summary }}}
+        </div>
+      </div>
+      <div class="hvpod-block hvpod-block--date">
+        {{formatDate end 'YYYY'}}
+      </div>
+    </div>
+  {{/inline}}
+{{/molecule-section}}

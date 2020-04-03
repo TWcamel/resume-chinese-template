@@ -1,0 +1,15 @@
+{{#section sectionId}}
+  <section id="{{ sectionId }}" class="section {{concat 'section--' sectionId}}">
+    {{> header-simple _title=sectionTitleKey _section=sectionId }}
+
+    {{#> section-body }}
+      <div class="section-block">
+        {{#> molecule-gallery data=data}}
+          {{#> section-gallery-item}}
+            {{!-- Default content goes here. --}}
+          {{/section-gallery-item}}
+        {{/molecule-gallery}}
+      </div>
+    {{/section-body }}
+  </section>
+{{/section}}

@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  node:
+    build: './docker'
+    command: 'yarn dev:browser-sync'
+    ports:
+      - 80:9000
+    working_dir: '/app'
+    volumes:
+      - .:/app
