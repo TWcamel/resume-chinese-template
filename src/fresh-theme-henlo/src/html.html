@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ RAW.name }}</title>
-    {{{styleSheet "html.css" "link"}}}
-  </head>
-  <body>
-    <main class="layout__content">
-      {{> info }}
-
-      {{> employment }}
-
-      {{> education }}
-
-      {{> languages }}
-
-      {{> skills }}
-
-      {{> interests }}
-    </main>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <title>{{ RAW.name }}</title>
+        {{{styleSheet "html.css" "link"}}}
+    </head>
+    <body>
+        <main class="layout__content">
+            {{> info }} {{> employment }} {{> education }} {{> skills }} {{>
+            languages }} {{> interests }}
+        </main>
+    </body>
 </html>

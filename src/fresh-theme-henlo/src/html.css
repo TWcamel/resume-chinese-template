@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-    /*font-family: var(--font-family-secondary);*/
+    font-family: var(--font-family-secondary);
     line-height: 1.15;
 }
 
@@ -125,6 +125,7 @@ h2 {
  */
 .chip {
     background-color: #f4f4f4;
+    color: #f481ab;
     display: inline-block;
     font-size: 0.92rem;
     font-weight: bold;
@@ -148,6 +149,10 @@ h2 {
 .hvpod-block p:last-child,
 .hvpod-element p:last-child {
     margin-bottom: 0;
+}
+
+#hvpod-block-item {
+    margin-bottom: 20px;
 }
 
 .hvpod-title {
@@ -193,6 +198,7 @@ h2 {
 
 .hvpod--education_degree {
     flex-wrap: wrap;
+    margin-bottom: 1rem;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
 }
@@ -237,7 +243,7 @@ h2 {
 .henlo-list {
     list-style: none;
     margin: 0px;
-    padding: 0px;
+    padding: 3px;
 }
 
 .henlo-list-item {
@@ -306,10 +312,12 @@ h2 {
     color: var(--section-title-color);
     font-family: var(--font-family-secondary);
     font-size: 0.9rem;
-    letter-spacing: 0.085em;
+    letter-spacing: 0.2em;
     margin: 0;
     margin-bottom: 1.25rem;
     text-transform: uppercase;
+    border-bottom: 2px solid var(--cs-border);
+    padding-bottom: 5px;
 }
 
 /**
@@ -324,10 +332,12 @@ h2 {
 .section--header .section-block--main {
     order: 1;
     flex: 1;
+    margin-top: 2rem;
 }
 
 .section--header .section-block--contact {
     order: 2;
+    margin-top: 2rem;
 }
 
 .section--header .section-block--contact + .section-block--contact {
@@ -344,6 +354,7 @@ h2 {
 
 .section--header .section-title {
     color: #000;
+    border-bottom: none;
     font-family: var(--font-family-secondary);
     font-size: 1.5rem;
     margin: 0;
@@ -360,7 +371,7 @@ h2 {
 
 .section--header .section-text {
     color: var(--text-secondary);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: var(--font-family-secondary2);
     /* font-weight: 600; */
     line-height: 1.5;
@@ -374,13 +385,13 @@ h2 {
     /*box-shadow: 2px 2px 0 var(--brand-primary), -2px -2px 0 var(--brand-primary);*/
     border: 2px solid var(--brand-primary);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
     justify-items: center;
-    height: 45px;
+    height: 3.5cm;
     margin-right: 2rem;
     order: 0;
-    width: 45px;
+    width: 2.5cm;
 }
 
 .section--header .section-element--img span {
@@ -404,8 +415,8 @@ h2 {
  */
 .section--skills .gallery {
     display: grid;
-    grid-gap: 0.75rem;
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    /* grid-template-columns: 1fr 1fr; */
 }
 
 .section--skills .gallery-item {
