@@ -1,4 +1,4 @@
-# resume
+# resume中文模板
 
 A little project about resume in HTML or PDF.
 
