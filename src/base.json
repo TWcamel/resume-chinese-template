@@ -1,8 +1,91 @@
 {
-    "name": "黃上科",
+    "name": "蔡英文",
     "meta": {
         "format": "FRESH@0.6.0",
         "version": "0.5.0"
+    },
+    "info": {
+        "label": "President of TW",
+        "characterClass": "Programmer",
+        "brief": "我目前就讀於清華大學，興趣是看Youtube學習新知識以及自學寫程式，我在碩士以及大學期間完成了幾項專案，在碩一時開始由實戰汲取經驗，暑假在泰國**團隊合作開發**一套自動化排程系統，獲得直屬主管讚許。即使如此，我深知業界的科技思維遠遠超越自己有限的知識，於是開始接觸線上程式競賽，一方面訓練我習慣於**長時間專注解決問題**，另一方面則可參考競賽時接觸到的新知識，隨時學習，隨時進步。"
+    },
+    "contact": {
+        "phone": "+33 XX XX XX XX",
+        "email": "john.doe@example.com"
+    },
+    "social": [
+        {
+            "label": "Codepen",
+            "network": "Codepen",
+            "user": "hussard",
+            "url": "https://codepen.io/hussard"
+        },
+        {
+            "label": "Github",
+            "network": "GitHub",
+            "user": "hussard",
+            "url": "https://github.com/hussard"
+        }
+    ],
+    "location": {
+        "city": "臺北",
+        "country": "臺灣"
+    },
+    "employment": {
+        "history": [
+            {
+                "employer": "Freelance",
+                "position": "Front-end and Back-end Developer",
+                "start": "2020-03",
+                "end": "now",
+                "keywords": [
+                    "Vue.js",
+                    "Node.js",
+                    "MongoDB",
+                    "JWT",
+                    "ECMAScript 7"
+                ],
+                "highlights": [
+                    "使用vue-google-oauth2、vue-cookies、koa、koa2、password-hash等套件構建一個**響應式健身網站**，首先需要使用者登錄自己的Google帳號，登錄後將使用者資訊儲存在MongoDB資料庫內，並產生一個JSON Web Tokens (JWT)，下次使用者登入時便不用再打一次帳號，而此次專案的目的爲讓健身教練根據**可視化**學員的學習狀況作出教學上的調整。"
+                ]
+            },
+            {
+                "employer": "Freelance",
+                "position": "Web and Android Developer",
+                "start": "2019-01",
+                "end": "2018-09",
+                "keywords": [
+                    "Java",
+                    "HTML5",
+                    "JavaScript",
+                    "PHP",
+                    "MySQL",
+                    "Python 3"
+                ],
+                "highlights": [
+                    "使用**柔性計算**將生產資料利用**網頁爬蟲**的方式告訴機臺進行生產，並以MySQL記錄機臺於製造過程中所產生的資料。以網頁以及手機APP的形式搭建**跨平臺**的「產線即時監控系統」，目的爲幫助使用者以及管理者更有效率地將產線狀況釐清以進行最佳化產能的調整。"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "sets": [
+            {
+                "name": "Programming Languages",
+                "level": "beginner",
+                "skills": [
+                    "C",
+                    "C++",
+                    "CUDA",
+                    "VBA",
+                    "Python",
+                    "MATLAB",
+                    "Visual Basic",
+                    "LaTex",
+                    "Java"
+                ]
+            }
+        ]
     },
 
     "interests": [

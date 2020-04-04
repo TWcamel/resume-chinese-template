@@ -2,7 +2,7 @@
 
 A little project about resume in HTML or PDF.
 
-![PDF resume preview](https://raw.githubusercontent.com/adrienrn/resume/dev/screenshot.jpg)
+![PDF resume preview](https://i.imgur.com/kHnUwmo.png)
 
 Most of the work is leveraged by [hacksalot/HackMyResume](https://github.com/hacksalot/HackMyResume) and [adrienrn/resume](https://github.com/adrienrn/resume), kudos to them.
 
