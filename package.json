@@ -1,5 +1,5 @@
 {
-    "name": "@hussard/resume",
+    "name": "@TWcamel/resume-chinese-template",
     "version": "1.0.0",
     "description": "",
     "main": "src/base.json",
@@ -20,6 +20,8 @@
         "lodash": "4.17.13"
     },
     "dependencies": {
+        "express": "^4.17.1",
+        "gulp-nodemon": "^2.5.0",
         "minimist": "^1.2.2",
         "puppeteer": "^1.19.0"
     }

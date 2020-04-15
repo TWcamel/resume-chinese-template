@@ -1,4 +1,4 @@
-# resume中文模板
+# resume 中文模板
 
 A little project about resume in HTML or PDF.
 
@@ -12,7 +12,7 @@ This project is orientated as a .json file (FRESH resume) to aggrement with tool
 -   Custom FRESH theme, called `henlo`
 -   Puppeteer to generate the PDFs -- see below why
 -   BrowserSync to serve the HTML/CSS and live reload
--   Gulp to watch files and rebuild, refresh while developing
+-   Gulp, Express, nodemon to watch files and rebuild, refresh while developing
 
 It is a must to have following requisites installed in your machine/computer for modifying this resume.
 
@@ -36,12 +36,13 @@ Once you have done the instructment above, do install dependencies
 The first time, you probably just want to start the container.
 
 ```
+~$ cd to_clone_dist
 ~$ docker-compose up
 ```
 
-There, you're done and go to `http://localhost:9000/base.html`.
+Any change to `.json`, `.html`, `.hbs` or `.css`, will trigger a rebuild of both the base.html and base.pdf output files (see `dist/` folder). Simple but realy handy while working on your content or design.
 
-Gulp is watching files and BrowserSync will live reload your page automatically. Any change to `.json`, `.html`, `.hbs` or `.css`, will trigger a rebuild of both the base.html and base.pdf output files (see `dist/` folder). Simple but realy handy while working on your content or design.
+Note: You can check the output file from `http://localhost:9000/` or `http://172.19.0.2:9000` (extern for example). The default wathching file is `base.html`, you can custom to what you want (see `Gulpfile.js`). Enjoy it!
 
 ## Generate
 

@@ -8,11 +8,10 @@
     /*--brand-primary: hsl(233, 100%, 57%);*/
     /*--brand-primary: hsl(167, 60%, 61%);*/
     /*--brand-primary-alt: hsla(233, 100%, 57%, .1);*/
-    /*--container-gutter: 140px;*/
+    --container-gutter: 140px;
     --container-width: 21.7cm;
     --text-secondary: #62666a;
     --section-title-color: hsl(210, 6%, 70%);
-
     --font-family-primary: Karla, Arial, sans-serif;
     --font-family-secondary: Barlow, Arial, sans-serif;
     /*--font-family-secondary2: 'Droid Serif', Arial, sans-serif;*/
@@ -105,6 +104,8 @@ h2 {
 
 @page {
     margin: 1.25cm;
+    size: A4 landscape;
+    /* margin: 0; */
 }
 
 /**
