@@ -19,6 +19,7 @@
 
 * {
     box-sizing: border-box;
+    break-inside: avoid-column;
 }
 
 html,
@@ -144,6 +145,7 @@ h2 {
  * .hvpod
  */
 .hvpod-block *:first-child {
+    page-break-inside: avoid;
     margin-top: 0;
 }
 

@@ -31,7 +31,11 @@ gulp.task("nodemon", function (cb) {
 });
 
 gulp.task("build", function (cb, a, b) {
-    exec("yarn hackmyresume:build", function (err, stdout, stderr) {
+    exec("yarn hackmyresume:build hackmyresume:dist", function (
+        err,
+        stdout,
+        stderr
+    ) {
         if (err) {
             console.error(`exec error: ${err}`);
 

@@ -4,8 +4,8 @@
     "description": "",
     "main": "src/base.json",
     "scripts": {
-        "hackmyresume:build": "hackmyresume -d build src/base.json TO dist/base.html --theme ./src/fresh-theme-henlo && node ./scripts/generate-pdf.js ./dist/base.html ./dist/base.pdf",
-        "hackmyresume:dist": "hackmyresume build src/base.json src/private-*.json TO dist/resume.html --theme ./src/fresh-theme-henlo && node ./scripts/generate-pdf.js ./dist/resume.html ./dist/resume.pdf",
+        "hackmyresume:build": "hackmyresume -d build src/base.json src/chinese.json -o src/chinese.json TO dist/base.html --theme ./src/fresh-theme-henlo && node ./scripts/generate-pdf.js ./dist/base.html ./dist/base.pdf",
+        "hackmyresume:dist": "hackmyresume build src/base.json src/private-*.json src/chinese.json TO dist/resume.html --theme ./src/fresh-theme-henlo && node ./scripts/generate-pdf.js ./dist/resume.html ./dist/resume.pdf",
         "dev:browser-sync": "gulp",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -23,6 +23,6 @@
         "express": "^4.17.1",
         "gulp-nodemon": "^2.5.0",
         "minimist": "^1.2.2",
-        "puppeteer": "^1.19.0"
+        "puppeteer": "^2.1.1"
     }
 }
