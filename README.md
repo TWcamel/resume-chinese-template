@@ -36,7 +36,7 @@ Once you have done the instructment above, do install dependencies
 The first time, you probably just want to start the container.
 
 ```
-~$ cd to_clone_dist
+~$ cd to_clone_dict
 ~$ docker-compose up
 ```
 
