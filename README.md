@@ -42,7 +42,7 @@ The first time, you probably just want to start the container.
 
 Any change to `.json`, `.html`, `.hbs` or `.css`, will trigger a rebuild of both the base.html and base.pdf output files (see `dist/` folder). Simple but realy handy while working on your content or design.
 
-Note: You can check the output file from `http://172.19.0.2:9000` (extern for example). The default wathching file is `dist/resume.html`, you can custom to what you want (see `Gulpfile.js` and `server.js`). Enjoy it!
+Note: You can check the output file from `http://localhost:9000/` (local in this case) or `http://172.19.0.2:9000` (extern for example). The default wathching file is `dist/resume.html`, you can custom to what you want (see `Gulpfile.js` and `server.js`). Enjoy it!
 
 ## Generate
 

@@ -145,12 +145,14 @@ h2 {
  * .hvpod
  */
 .hvpod-block *:first-child {
+    break-inside: avoid-column;
     page-break-inside: avoid;
     margin-top: 0;
 }
 
 .hvpod-block p:last-child,
 .hvpod-element p:last-child {
+    page-break-inside: avoid;
     margin-bottom: 0;
 }
 
