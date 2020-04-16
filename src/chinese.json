@@ -7,7 +7,7 @@
     "theme": "./src/fresh-theme-henlo",
 
     "sectionTitles": {
-        "eduation": "教育程度",
+        "education": "教育程度",
         "skills": "專業技能",
         "employment": "項目經歷",
         "info": "聯絡資訊",
