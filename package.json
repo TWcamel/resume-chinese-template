@@ -22,7 +22,7 @@
     "dependencies": {
         "express": "^4.17.1",
         "gulp-nodemon": "^2.5.0",
-        "minimist": "^1.2.2",
+        "minimist": "^1.2.3",
         "puppeteer": "^2.1.1"
     }
 }
