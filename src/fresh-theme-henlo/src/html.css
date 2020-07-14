@@ -338,6 +338,7 @@ h2 {
     order: 1;
     flex: 1;
     margin-top: 2rem;
+    margin-right: 1rem;
 }
 
 .section--header .section-block--contact {
